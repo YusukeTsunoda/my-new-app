@@ -1,0 +1,48 @@
+{
+  "name": "my-new-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YusukeTsunoda/my-new-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/YusukeTsunoda/my-new-app/issues"
+  },
+  "homepage": "https://github.com/YusukeTsunoda/my-new-app#readme",
+  "dependencies": {
+    "@prisma/client": "^6.9.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.1.7",
+    "autoprefixer": "^10.4.21",
+    "jose": "^6.0.11",
+    "next": "^15.3.3",
+    "postcss": "^8.5.4",
+    "prisma": "^6.9.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "dotenv": "^16.5.0",
+    "jest": "^30.0.0",
+    "jest-environment-jsdom": "^30.0.0"
+  }
+}
